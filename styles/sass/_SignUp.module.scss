@@ -1,0 +1,95 @@
+@import './_Variables.module.scss';
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    padding:0.5rem 1.5rem 0.75rem;
+    margin-top:2.5rem;
+    font-family: 'Outfit', sans-serif;
+    
+    .img {
+        padding:0.5rem 1.5rem 0.75rem;
+        margin: 0 auto 2.5rem;
+        align-items: center;
+    }
+
+    .card {
+        display:flex;
+        flex-direction: column;
+        border-radius:0.5rem;
+        background-color: $DarkGunmetal;
+        color:$White;
+        width: 328px;
+        @media (min-width: 768px) {
+                width: 418px;
+            
+                }
+        .main {
+            display:flex;
+            flex-direction: column;
+            margin:1.5rem;
+            .title {
+                width:80%;
+                padding-top:0.5rem;
+                padding-bottom:0.75rem;
+                font-size: 2rem;
+                font-weight: 500;
+            }
+            .inpt {
+                width: 80%;
+                padding:0.5rem 1.5rem 0.75rem;
+                background-color: $DarkGunmetal;
+                caret-color: $TartOrange;
+                outline:0;
+                margin: 1rem auto;
+                border-bottom-width:3px;
+                border-color:$DarkGunmetal;
+                border-bottom-color:$UCLABlue;
+                border-style:solid;
+                border-bottom-width: 2px;
+                font-size:1rem;
+                &:focus {
+                    border-bottom-color: $White;
+                    
+
+                }
+            }
+            .btn {
+                width: 100%;
+                padding:0.5rem 1.5rem 0.75rem;
+                border-color:$UCLABlue;
+                background-color: $TartOrange;
+                border-radius: 0.5rem;
+                font-weight: 300;
+                margin:  1rem auto;
+                color:$White;
+                font-size:1rem;
+                &:hover {
+                    background-color: $White;
+                    color:$DarkGunmetal;
+                    cursor: pointer;
+                }
+            }
+        }
+        .btm{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+            font-weight:300;
+            margin-top: 1rem;
+            margin-bottom:1rem;
+            .act {
+                margin:0.25rem;
+            }
+            .sgn {
+                margin:0.25rem;
+                color:$TartOrange;
+            }
+        }
+        }
+}

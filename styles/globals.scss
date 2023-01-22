@@ -1,0 +1,22 @@
+@import './sass/_Variables.module.scss';
+@import './sass/_Login.module.scss';
+@import './sass/_SignUp.module.scss';
+@import './sass/_Navbar.module.scss';
+@import './sass/_Title.module.scss';
+@import './sass/_Trending.module.scss';
+@import './sass/_Pages.module.scss';
+@import './sass/_Bookmarked.module.scss';
+@import './sass/_Tvseries.module.scss';
+@import './sass/_Home.module.scss';
+
+
+body {
+   background-color:$ChineseBlack; 
+   font-family:'Outfit', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin:0px 15px;
+
+}
+
+-webkit-scrollbar {
+   width: 110px;
+ }

@@ -1,0 +1,14 @@
+@import './_Variables.module.scss';
+
+.title {
+    color:$White;
+    font-size:1.25rem;
+    line-height: 1.75rem;
+    font-family:  'Outfit', sans-serif;
+    font-weight: 300;
+    padding:1rem 0.50rem;
+    @media (min-width: 1024px) {
+        margin-left:96px;
+
+        }
+}
